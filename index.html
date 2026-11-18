@@ -1,0 +1,4 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>恶魔五子棋 · Loading</title></head><body><p>正在载入恶魔五子棋…</p><script type="module">
+try { const response=await fetch('./release.json',{cache:'no-store'}); if(!response.ok) throw new Error('Release metadata HTTP '+response.status); const {version}=await response.json(); if(!/^v\d+\.\d+\.\d+$/.test(version)) throw new Error('Invalid release version'); location.replace(new URL('./releases/'+version+'/',location.href)); }
+catch(error) { console.error(error); document.body.textContent='游戏加载失败，请刷新页面。 / Loading failed; please refresh.'; }
+</script></body></html>

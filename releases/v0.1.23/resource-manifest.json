@@ -1,0 +1,446 @@
+{
+  "version": "0.1.23",
+  "resources": [
+    {
+      "url": "./index.html",
+      "bytes": 1149,
+      "sha256": "6300d4eac94b98f7e6b68adc1d417d3ce4deb9ed1b2cea19de274bd109c4b150"
+    },
+    {
+      "url": "./service-worker.js",
+      "bytes": 1084,
+      "sha256": "29fda1ac6ad03b8b70fce024b7b8cc4bc70bfab137d1f852d9d619155b30a2f7"
+    },
+    {
+      "url": "./src/core/ai-worker.js",
+      "bytes": 154769,
+      "sha256": "fdac7e9c4617b222d0b730a385e023d7dcc4bf2367f9e5eb40bc6f5061a59979"
+    },
+    {
+      "url": "./src/main.js",
+      "bytes": 415638,
+      "sha256": "f40a99d60816acaa18bc8fdb2180124a8ed5be6415e17eed0963bead346b0c74"
+    },
+    {
+      "url": "./styles/app.css",
+      "bytes": 60793,
+      "sha256": "b21f3d4a364581ac8af70789966c65a4bcda73eb4521ca7ece9e1778627b1181"
+    },
+    {
+      "url": "./assets/art/abomination-injured.webp",
+      "bytes": 538954,
+      "sha256": "e6dc9636564149890b9f6e48cfbf76f16817b5f605f24f076a76d8892ec65d76"
+    },
+    {
+      "url": "./assets/art/abomination.webp",
+      "bytes": 498734,
+      "sha256": "df6ce107001c34fd22404bfa895817ce8b2d674a826df6a2a384fa10e556449b"
+    },
+    {
+      "url": "./assets/art/assassin-injured.webp",
+      "bytes": 401148,
+      "sha256": "a7c459ebfe7a812dc7b4e2422200619d8a96e4c16da167b7df14e6186bdb6408"
+    },
+    {
+      "url": "./assets/art/assassin.webp",
+      "bytes": 311796,
+      "sha256": "f2b838b0d1300867dccb5a12a6c0f32655a2c83e12ecda5b84cf9f9219d1c659"
+    },
+    {
+      "url": "./assets/art/bard-injured.webp",
+      "bytes": 577956,
+      "sha256": "b9526b18eaaeb7443b3a79f5e54a881aba006bd0aee03764956e7eb41f3e86db"
+    },
+    {
+      "url": "./assets/art/bard.webp",
+      "bytes": 489046,
+      "sha256": "50f42cefafff199c2e85b1f1502d891f6589b3746433f25d736690f65b896943"
+    },
+    {
+      "url": "./assets/art/hellhound-injured.webp",
+      "bytes": 452260,
+      "sha256": "2fc8301661944be17f1f2dfc0da462042f7ac42cdf71e5191bab25c2e840be3f"
+    },
+    {
+      "url": "./assets/art/hellhound.webp",
+      "bytes": 403294,
+      "sha256": "bacdcdb37def590faec853a238e3a0cb9cf55ab4a11d5275bcfe19557fe9926e"
+    },
+    {
+      "url": "./assets/art/infernal-injured.webp",
+      "bytes": 741874,
+      "sha256": "afe87162013d6beffb3494186f43bed57eb9a4d4e36e7ad361fd7d219a06010e"
+    },
+    {
+      "url": "./assets/art/infernal.webp",
+      "bytes": 554940,
+      "sha256": "6b2330b901d1d3a8897a8abc343bb8dd87ce1a303d5f8aee9bd7ff958fde1a88"
+    },
+    {
+      "url": "./assets/art/knight-injured.webp",
+      "bytes": 615720,
+      "sha256": "a49ca585a05d49b49ba4abea261ee031e383c1855bcb3a0fd52f33ba1ad11e53"
+    },
+    {
+      "url": "./assets/art/knight.webp",
+      "bytes": 502110,
+      "sha256": "0744fc821f54d52c6b0db298d16b3f7ed5d3683568b04bb768f929c17d9771be"
+    },
+    {
+      "url": "./assets/art/mage-injured.webp",
+      "bytes": 554286,
+      "sha256": "249e85110a7810f427343942641773185221b331796262a84edfe2213848d8dc"
+    },
+    {
+      "url": "./assets/art/mage.webp",
+      "bytes": 450966,
+      "sha256": "df6df4994d4fb506452bf381b6e8c8b376a3434d5609f6d11e4cee0e8fcfc277"
+    },
+    {
+      "url": "./assets/art/marilith-injured.webp",
+      "bytes": 594172,
+      "sha256": "7bd6da75f7d34c4158a2f44f8c84ee76aad96d87543c7bb87b85241e4c98e6c4"
+    },
+    {
+      "url": "./assets/art/marilith.webp",
+      "bytes": 583692,
+      "sha256": "503f46269fac5ff14fdda5160546dd3620f18b8a83bc3d8f1a56bf8ad8452249"
+    },
+    {
+      "url": "./assets/art/nightmare-injured.webp",
+      "bytes": 661552,
+      "sha256": "3e7d81555b8f1246243b6896c166f2c2bf8532d0524d03af8684940087a9a3cc"
+    },
+    {
+      "url": "./assets/art/nightmare.webp",
+      "bytes": 447792,
+      "sha256": "7f192ea4b5ec43272674d24c3606947913fcbed4f0940adb74248768e1c61a3e"
+    },
+    {
+      "url": "./assets/art/paladin-injured.webp",
+      "bytes": 602820,
+      "sha256": "9ac9bbbbf1070c23111d74c80c8c16b3a8c8b9008a748b8423546cbc440ee999"
+    },
+    {
+      "url": "./assets/art/paladin.webp",
+      "bytes": 527656,
+      "sha256": "99065a7c72941af389b49860c3fa6a1bf1da2fdf1748c5c485b976aff2ac3e09"
+    },
+    {
+      "url": "./assets/art/priest-injured.webp",
+      "bytes": 492220,
+      "sha256": "d0183452c2ca4a120143098c4b7c63356fbce4354fd01859779f6f86f10848e1"
+    },
+    {
+      "url": "./assets/art/priest.webp",
+      "bytes": 445362,
+      "sha256": "1383cc78718da378ee77e6441f90ef314201e354c3611a5d7789a162423c3b8e"
+    },
+    {
+      "url": "./assets/art/ranger-injured.webp",
+      "bytes": 476040,
+      "sha256": "67398e87a9f1af363f37ced9733be7464c1b490009a3f2e123f9748a1f4158f1"
+    },
+    {
+      "url": "./assets/art/ranger.webp",
+      "bytes": 414438,
+      "sha256": "802a564338d1e0028035a17d7185f855cc353bc15af8b6d8b051da2e6d8094ef"
+    },
+    {
+      "url": "./assets/art/shifter-injured.webp",
+      "bytes": 712572,
+      "sha256": "15247a97086f2a72bb2218cc7f2988c3da7c3c26d8c868c8c06bf8f6e587ba33"
+    },
+    {
+      "url": "./assets/art/shifter.webp",
+      "bytes": 657774,
+      "sha256": "927473287403bb714ffec9a790a802b42b1e74074a5ee59207c730f4b99c811e"
+    },
+    {
+      "url": "./assets/art/soulbinder-injured.webp",
+      "bytes": 588926,
+      "sha256": "baab9f4b1d871e78d6b5164b7c9f75c6634120ba536b9af14d9a555459962f12"
+    },
+    {
+      "url": "./assets/art/soulbinder.webp",
+      "bytes": 467644,
+      "sha256": "62010579a08cb765a1ff444108b3cd875b2c0a8cc66058a5b453d9293a1e3e5a"
+    },
+    {
+      "url": "./assets/art/succubus-variant-1.webp",
+      "bytes": 505406,
+      "sha256": "fc0fee78cce26a52b2e9a70ebf998d5f9d349b8a61c4c5ea38cc3cf85ef35378"
+    },
+    {
+      "url": "./assets/art/succubus-variant-2.webp",
+      "bytes": 505668,
+      "sha256": "982dbefa4d7c4740389ef5dc2dc30c6d2f501f25f6dfb646add941ebe20712f6"
+    },
+    {
+      "url": "./assets/art/succubus-variant-3.webp",
+      "bytes": 487862,
+      "sha256": "a5aa4e205d6684840756c8f2c4669d169266749769d1d6659bdc70972fc2d8c8"
+    },
+    {
+      "url": "./assets/art/succubus.webp",
+      "bytes": 489746,
+      "sha256": "4a6d337016e3f759b10b47401d36516200f4ad1492f099751b833875cea9ef82"
+    },
+    {
+      "url": "./assets/art/warrior-variant-1.webp",
+      "bytes": 439298,
+      "sha256": "1f9121158effe0f6665b1d76ffb10c8cb3302271163dff9b025dfcc06703fcb2"
+    },
+    {
+      "url": "./assets/art/warrior-variant-2.webp",
+      "bytes": 381198,
+      "sha256": "8fb443c427d02c586e10aa17529d51e1a4ac24cd9db42ef75a1e7952ba1f2db3"
+    },
+    {
+      "url": "./assets/art/warrior-variant-3.webp",
+      "bytes": 403708,
+      "sha256": "cdff8e4516da281f53e18dc1e26d38cb7d593b139530158af783bc8780ee6cea"
+    },
+    {
+      "url": "./assets/art/warrior.webp",
+      "bytes": 383566,
+      "sha256": "b983fd66aafed2f85b1e6199aa6e949314e0fbfcc0acf102a8547967da06bd25"
+    },
+    {
+      "url": "./assets/audio/battle.mp3",
+      "bytes": 874102,
+      "sha256": "d6a881dc6ec11f08b6d7619e7b5c0ba22c436e739d7b0f1a7de1e750be54861d"
+    },
+    {
+      "url": "./assets/audio/blocked.wav",
+      "bytes": 88244,
+      "sha256": "c90349fd00ff0075642c171822148450371d83d849fa35f4e4fc03436ef67920"
+    },
+    {
+      "url": "./assets/audio/chant.wav",
+      "bytes": 176444,
+      "sha256": "da5360aa7dcf1bf50b3da1e0ef5a3234e7f6ab11414114ec2e003e39bb48cc1b"
+    },
+    {
+      "url": "./assets/audio/charge.wav",
+      "bytes": 141164,
+      "sha256": "5ae5093f7c70bb318760b23cabc6f2ca08109cebec4f165af2c338d1df9b7b64"
+    },
+    {
+      "url": "./assets/audio/cleanse.wav",
+      "bytes": 158804,
+      "sha256": "bd2809ccef2851e49fdfc0e46e64979f38ba5c276b20d710cbcafc35f0159b69"
+    },
+    {
+      "url": "./assets/audio/corruption.wav",
+      "bytes": 114704,
+      "sha256": "b46c2caaa89ff56c88e29b4b3aaa9974210785646ad5daf253220bbe3d70d5d7"
+    },
+    {
+      "url": "./assets/audio/death.wav",
+      "bytes": 114704,
+      "sha256": "5197630670ca660dfd1dfdf9d0be3ed931ba7aebd395cbcdc1947cb6efe4421b"
+    },
+    {
+      "url": "./assets/audio/defeat.wav",
+      "bytes": 405764,
+      "sha256": "af609a6adf68f1ec7d37d039db7978f207d55b19fefacf2c4c5e422a120c9f07"
+    },
+    {
+      "url": "./assets/audio/draw.wav",
+      "bytes": 264644,
+      "sha256": "086bb9b450a74af6f9945d4ad9ea21b049a42ebf5ec1c955193447bbf831238e"
+    },
+    {
+      "url": "./assets/audio/fallen.wav",
+      "bytes": 220544,
+      "sha256": "8b3ca7a6e678df12138d425b23c7a1511658798abd85e8b51f604cc617eeb9d0"
+    },
+    {
+      "url": "./assets/audio/heal.wav",
+      "bytes": 141164,
+      "sha256": "745c9fbcec5d065cea93b86d4781e593dcaa4251b2c43dde628c1092b82e4600"
+    },
+    {
+      "url": "./assets/audio/magic.wav",
+      "bytes": 97064,
+      "sha256": "824df1776e8c178d71d3e124913faa389e824346580c177fd4b43e8dddf8a88e"
+    },
+    {
+      "url": "./assets/audio/move.wav",
+      "bytes": 35324,
+      "sha256": "8e967e0271131930d0d94cd960571ebc33f541a47d3a22393688688ff6fda3cc"
+    },
+    {
+      "url": "./assets/audio/physical.wav",
+      "bytes": 52964,
+      "sha256": "cd555fd456595347201819e018b4165e4ea9ed5bcc5bccab8b9c333ee2588096"
+    },
+    {
+      "url": "./assets/audio/place-demon.wav",
+      "bytes": 52964,
+      "sha256": "f7dc4267465d2bd7312e851dec20c356c3c5e89599c1196676fdc10d7244b0d7"
+    },
+    {
+      "url": "./assets/audio/place-human.wav",
+      "bytes": 42380,
+      "sha256": "bbe6624004c92af524ca40d1c4ed57eef7dfcff376ae4c88589db60f87170389"
+    },
+    {
+      "url": "./assets/audio/promotion.wav",
+      "bytes": 264644,
+      "sha256": "730c3f4ffdddc1c1c242f6e39cee9f5668572865d36b449259960040ab2f50c7"
+    },
+    {
+      "url": "./assets/audio/resonance.wav",
+      "bytes": 194084,
+      "sha256": "a99632de6371ee90c982e0be245332761bb9132f9c7070e700e06655f0dc14e9"
+    },
+    {
+      "url": "./assets/audio/sacrifice.wav",
+      "bytes": 211724,
+      "sha256": "7e4fd685180d347b1830ce439102ed3888d54df10d5232186204acff34721a3b"
+    },
+    {
+      "url": "./assets/audio/selection.mp3",
+      "bytes": 1067930,
+      "sha256": "744e40fafad1ff9865492e05dc07c36393842260e0303b3fe9a583453f54ea22"
+    },
+    {
+      "url": "./assets/audio/shield.wav",
+      "bytes": 70604,
+      "sha256": "3d3533cee26e752074de76e12556c52ae17b0e8cbb4b9e68c619ec539d830a11"
+    },
+    {
+      "url": "./assets/audio/shifter-reveal.wav",
+      "bytes": 317564,
+      "sha256": "0caea3b86fa8c0e093d0cf612f2474389b125e9c24366b482de0d2f3af47da05"
+    },
+    {
+      "url": "./assets/audio/spawn.wav",
+      "bytes": 282284,
+      "sha256": "07c098ef55beca0b5a85496ccde5dc5ef693a22d6bcd062ecd0f5652003a1c65"
+    },
+    {
+      "url": "./assets/audio/stealth.wav",
+      "bytes": 70604,
+      "sha256": "5854c84455e79201cb988fc35d6ae115d9abae6ba6d684d51acc07a77a376c3b"
+    },
+    {
+      "url": "./assets/audio/ui.wav",
+      "bytes": 21212,
+      "sha256": "3b7c504835d4c0cb03552ca40b690230bbd44ffa1ab2458ccdcd12ff0a074580"
+    },
+    {
+      "url": "./assets/audio/victory.wav",
+      "bytes": 405764,
+      "sha256": "b9bff1e7a4cdbeb73d164bf4571c8f3dcb00f01acffbfda2671ccfd908f9258e"
+    },
+    {
+      "url": "./assets/icons/abomination.svg",
+      "bytes": 322,
+      "sha256": "9812b4cd5b683dc1d4e2ea855260c02e2336a406c55b135ecd92bef2713a65e7"
+    },
+    {
+      "url": "./assets/icons/assassin.svg",
+      "bytes": 271,
+      "sha256": "d0970ed24da2b56c9941a936a418efc68b81ed24526077a4fd5b53dd91e49a51"
+    },
+    {
+      "url": "./assets/icons/bard.svg",
+      "bytes": 312,
+      "sha256": "4c8a0e0e18c48f553f9902001d59be4e4604d79b635e0656ebbdeb4ffde87dac"
+    },
+    {
+      "url": "./assets/icons/boot.svg",
+      "bytes": 236,
+      "sha256": "d9b66788a965a9e440ddbc3c3b54cad1010fd4a854941ee658a3bc3e25b12140"
+    },
+    {
+      "url": "./assets/icons/corruption.svg",
+      "bytes": 246,
+      "sha256": "7d4524afc0c5081f864606fa19b7989c5c20c44d811b532651b9c6e3ee81ed01"
+    },
+    {
+      "url": "./assets/icons/crown.svg",
+      "bytes": 219,
+      "sha256": "742172a17f399e15d0a160bc370976f667a0de467cc7ff932f49e8e7609b15e7"
+    },
+    {
+      "url": "./assets/icons/gate.svg",
+      "bytes": 314,
+      "sha256": "998847bd024a260e3726c9ce105b3f75da9e4ff457273f73cdf06aed3b37e629"
+    },
+    {
+      "url": "./assets/icons/heart.svg",
+      "bytes": 221,
+      "sha256": "f47f537b153d8f55e51439be365e4f5472f4ef3a1bfc159719ad4831d8af296f"
+    },
+    {
+      "url": "./assets/icons/hellhound.svg",
+      "bytes": 284,
+      "sha256": "de1cd09f316cb513e5941be9864bc23447c5f1151614e65b0d6d97c5f279a490"
+    },
+    {
+      "url": "./assets/icons/infernal.svg",
+      "bytes": 292,
+      "sha256": "564acf99283ab3eef70b29497b0d8b1970cc68345c8fa476ccd482bdacda15d4"
+    },
+    {
+      "url": "./assets/icons/knight.svg",
+      "bytes": 245,
+      "sha256": "fce2d65429ea8646f939694e40a0a42819cc2a4b6dae20176d7587acdf69b28f"
+    },
+    {
+      "url": "./assets/icons/mage.svg",
+      "bytes": 281,
+      "sha256": "7d6271d2f71cb8395ee34e1b4c4bcd292f315783cb13eeaca2762040a659c130"
+    },
+    {
+      "url": "./assets/icons/marilith.svg",
+      "bytes": 458,
+      "sha256": "85a60ef45f663b1ee06c46a236e391c39058e082cba429872e62cfb18fe999d5"
+    },
+    {
+      "url": "./assets/icons/nightmare.svg",
+      "bytes": 360,
+      "sha256": "a3cd19ed036c012a00e246a451f47ee21fc47bd68a3f00e085b2cb1a166946eb"
+    },
+    {
+      "url": "./assets/icons/paladin.svg",
+      "bytes": 325,
+      "sha256": "4d229c5c84d013c5814cbea785064701f5210ef245909180925c52e687a0241b"
+    },
+    {
+      "url": "./assets/icons/priest.svg",
+      "bytes": 256,
+      "sha256": "a51368d5366848fd1e71f03bb0e2321d56f6d0966c7f0a8b4f9f65118fb96fbf"
+    },
+    {
+      "url": "./assets/icons/ranger.svg",
+      "bytes": 224,
+      "sha256": "3311461fe60626a37fc02af62ee9c4b94d0318b49a5314a59d3135892b33979a"
+    },
+    {
+      "url": "./assets/icons/shifter.svg",
+      "bytes": 338,
+      "sha256": "f8852d56ed6a86247fa7103038e7e17b94ee1656dc24f25d7e51681a71c67c76"
+    },
+    {
+      "url": "./assets/icons/soulbinder.svg",
+      "bytes": 313,
+      "sha256": "314b161c794e79ea97a2d66e6150ea45beaecc88b5d84c5bc5f7daf66597701f"
+    },
+    {
+      "url": "./assets/icons/succubus.svg",
+      "bytes": 299,
+      "sha256": "1a5898896725e7285b26ce2cc6a3a2147773350386ca7d757a611d21b2b06309"
+    },
+    {
+      "url": "./assets/icons/warrior.svg",
+      "bytes": 235,
+      "sha256": "8b1d6076c1c6b89f01f14d414837ada9d32af9d7a23dbce0d29d8e5ab6eeac7e"
+    }
+  ],
+  "totalBytes": 24889072
+}
